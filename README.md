@@ -1,6 +1,6 @@
 <div align="center">
 
-# [VTK 几何与结果查看器](https://github.com/FuxuanNet/vtk_geometry_viewer)
+# [VTK 几何与结果查看器](https://fuxuannet.github.io/vtk_geometry_viewer/)
 
 基于 VTK.js 的浏览器端 Legacy ASCII VTK 网格与结果查看工具。
 
