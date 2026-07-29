@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.vite/
+
+*.log
+.DS_Store
+Thumbs.db
+
+__pycache__/
+*.py[cod]
+
+# 本地验证结果体积较大，需要时单独作为测试附件分享。
+sam_h5_vtk_validation.json
+
