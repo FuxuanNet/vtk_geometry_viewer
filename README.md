@@ -1,13 +1,17 @@
 <div align="center">
 
-# VTK 几何与结果查看器
+# [VTK 几何与结果查看器](https://github.com/FuxuanNet/vtk_geometry_viewer)
 
 基于 VTK.js 的浏览器端 Legacy ASCII VTK 网格与结果查看工具。
 
 ![VTK.js](https://img.shields.io/badge/VTK.js-32.12-EF553B)
 ![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES_Modules-F7DF1E?logo=javascript&logoColor=111111)
-![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub_Pages-222222?logo=githubpages)
+[![GitHub Pages](https://github.com/FuxuanNet/vtk_geometry_viewer/actions/workflows/deploy-pages.yml/badge.svg?branch=main)](https://github.com/FuxuanNet/vtk_geometry_viewer/actions/workflows/deploy-pages.yml)
+[![GitHub Stars](https://img.shields.io/github/stars/FuxuanNet/vtk_geometry_viewer?style=flat)](https://github.com/FuxuanNet/vtk_geometry_viewer/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/FuxuanNet/vtk_geometry_viewer?style=flat)](https://github.com/FuxuanNet/vtk_geometry_viewer/forks)
+
+[在线查看器](https://fuxuannet.github.io/vtk_geometry_viewer/) · [问题反馈](https://github.com/FuxuanNet/vtk_geometry_viewer/issues)
 
 </div>
 
@@ -85,13 +89,14 @@ npm run build
 2. 将 `Source` 设置为 `GitHub Actions`。
 3. 将代码推送到 `main` 分支。
 4. 等待 `Deploy VTK Viewer to GitHub Pages` 工作流完成。
+5. 访问 <https://fuxuannet.github.io/vtk_geometry_viewer/>。
 
 首次上传示例：
 
 ```powershell
 git add .
 git commit -m "feat: add VTK geometry viewer"
-git remote add origin https://github.com/<用户名>/<仓库名>.git
+git remote add origin https://github.com/FuxuanNet/vtk_geometry_viewer.git
 git push -u origin main
 ```
 
@@ -129,4 +134,3 @@ vtk_geometry_viewer/
 - 日志及操作系统临时文件。
 
 `package-lock.json` 应随源码提交，GitHub Actions 会通过 `npm ci` 安装完全一致的依赖版本。
-
